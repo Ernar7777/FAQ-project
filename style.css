@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#dh1 {
+    text-align: center;
+}
+.punkt {
+    font-size: 17px;
+    font-weight: bold;
+}
+.vopros {
+    display: block;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px 15px ;
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.otvet {
+    display: none;
+    font-weight:500;
+    color:rgb(128, 128, 128);
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: -10px;  
+    margin-bottom: 10px;
+    border-radius:5px 5px 15px 15px;
+    height: 40px;
+    width: 500px;
+}
